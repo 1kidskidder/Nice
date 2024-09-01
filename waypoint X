@@ -24,6 +24,6 @@ local button = sector.element('Esp', 'Button', nil, function()loadstring(game:Ht
 
 end)
 
-local button = sector.element('Esp', 'Button', nil, function()
+local button = sector.element('Esp', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Boxesp",true))()
 
 end)
