@@ -20,10 +20,10 @@ local button = sector.element('Button', 'Silent', nil, function()loadstring(game
 
 end)
 
-local button = sector.element('Button', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Waypoint%20x%20v1",true))()
+local button = sector.element('Button', 'espv1', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Waypoint%20x%20v1",true))()
 
 end)
 
-local button = sector.element('Button', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Boxesp",true))()
+local button = sector.element('Button', 'espv2', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Boxesp",true))()
 
 end)
