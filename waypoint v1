@@ -3,7 +3,7 @@ local Library = {}
 
 function Library:GetColor(color, table)
     table = table or false
-    if (color.R == nil) then return Color3.fromRGB(19, 119, 255) end
+    if (color.R == nil) then return Color3.fromRGB(127, 0, 255) end
 
     local ColorRed = math.round(color.R * 255)
     local ColorGreen = math.round(color.G * 255)
@@ -29,8 +29,8 @@ function Library:GetSide(LeftSize, RightSize)
 end
 
 function Library:CreateWindow(title, color)
-    title = title or "Bracket Lib V2"
-    color = color and Library:GetColor(color) or Color3.fromRGB(19, 119, 255)
+    title = title or "Waypoint V1"
+    color = color and Library:GetColor(color) or Color3.fromRGB(189, 181, 213)
 
     -- Window Main
     local WinTypes = {}
@@ -57,9 +57,9 @@ function Library:CreateWindow(title, color)
     BracketV2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     core.Name = "core"
-    core.Parent = BracketV2
-    core.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-    core.BorderColor3 = Color3.fromRGB(8, 8, 8)
+    core.Parent = WaypointV1
+    core.BackgroundColor3 = Color3.fromRGB(195, 177, 225)
+    core.BorderColor3 = Color3.fromRGB(230, 230, 250)
     core.Position = UDim2.new(0.156000003, 0, 0.140000001, 0)
     core.Size = UDim2.new(0, 540, 0, 531)
 
