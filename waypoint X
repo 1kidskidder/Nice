@@ -16,14 +16,14 @@ local sector = section.new_sector('WAYPOINT', 'Left')
 local sector1 = section.new_sector('WAYPOINT', 'Right')
 
 -- // Elements \\ -- (Type, Name, State, Callback)
-local button = sector.element('Silent', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/scripts",true))()
+local button = sector.element('Button', 'Silent', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/scripts",true))()
 
 end)
 
-local button = sector.element('Esp', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Waypoint%20x%20v1",true))()
+local button = sector.element('Button', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Waypoint%20x%20v1",true))()
 
 end)
 
-local button = sector.element('Esp', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Boxesp",true))()
+local button = sector.element('Button', 'Button', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Boxesp",true))()
 
 end)
