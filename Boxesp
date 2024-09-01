@@ -1,7 +1,7 @@
 --Not By Adrian
 local Settings = {
     Box_Color = Color3.fromRGB(48, 25, 52),
-    Box_Thickness = 2,
+    Box_Thickness = 1,
     Team_Check = false,
     Team_Color = false,
     Autothickness = true
@@ -36,7 +36,7 @@ local function Colorize(lib, color)
     end
 end
 
-local Black = Color3.fromRGB(0, 0, 0)
+local Black = Color3.fromRGB(48, 25, 52)
 
 local function Rainbow(lib, delay)
     for hue = 0, 1, 1/30 do
