@@ -1,1 +1,2 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/Eps",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/Nice/main/highlight%20esp",true))()
